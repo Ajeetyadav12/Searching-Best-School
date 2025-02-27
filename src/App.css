@@ -1,0 +1,67 @@
+.AppDiv {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #34db87;
+  color: white;
+  padding: 20px 0;
+}
+
+.search-container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.search-input {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.results-container {
+  width: 80%;
+  margin: 20px auto;
+  flex-grow: 1; /* Allow results to expand and push footer down */
+}
+
+.school-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.school-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.school-card p {
+  color: #666;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
